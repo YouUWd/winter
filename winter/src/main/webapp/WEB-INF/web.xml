@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<javaee:display-name>Archetype Created Web Application
+	</javaee:display-name>
+	<servlet>
+		<javaee:description></javaee:description>
+		<javaee:display-name>ServletDispatcher</javaee:display-name>
+		<servlet-name>ServletDispatcher</servlet-name>
+		<servlet-class>com.youu.winter.ServletDispatcher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletDispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+</web-app>
